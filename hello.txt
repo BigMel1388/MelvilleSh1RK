@@ -1,0 +1,32 @@
+
+        </div>
+        <h1>Here are the Best Places to Visit in Osaka</h1>
+        </div>
+
+        <div class="dotonbori">
+            <h1>#1 Dotonbori</h1>
+            <img src="">
+            <p>Are you fan of night walks? Are you interested in Street food? Or Maybe even Shopping? We've got the best place for you! Dotonbori, one of tourist fan favourite place to wonder around at night and craving their foods like beast.</p>
+            <p>Why is it awesome?: Like in the previous paragragh mention that "This place is tourist's fan favourite". Dotonbori is in the Minami area and is extremely popular amongst tourists. This neighborhood pulls out all the stops for tourists, which means that you’ll see some famous shop displays, flashing neon lights, and a plethora of restaurants and cafes to tempt your tastebuds.</p>
+            <p>What to do there?: This area is a great place to shop especially for the ladies or trans or whatever, anyways so make sure you put on comfortable shoes and take your cards with you cause it's gonna be packed.</p>
+            <p>In conclusion: Don't get too hook up on shopping. Because there is loads of more things you can do in Dotonbori.</p>
+        </div>
+
+
+
+                <h1>Top Best Places to Visit in Osaka</h1>
+        <p>Most people who visit Japan go to Tokyo, Kyoto, maybe Hiroshima, and then head home, thinking they’ve seen everything they need to see in this country.</p>
+        <p>But following this itinerary means that you’ll miss out on the unique flavor and charm of cities that are a little off the beaten path like Osaka Japan.</p>
+        <p>Osaka has amazing and unique food, a great nightlife, and some of the best castles in the country, all ready and waiting for you to explore. So, when you’re looking for places to visit in Osaka, you’ll be spoiled for choice.</p>
+        <p>Information on Osaka’s charms can be a little harder to find than it is for the larger cities, which is why some travelers don’t make it part of their trip to Japan.</p>
+        <p>But that’s why I created this ultimate guide to everything you’ll want to see and do on your Osaka itinerary.</p>
+
+
+.header{
+  min-width: none;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("https://drive.google.com/uc?export=view&id=1_SA_mVAwkC2tlX9J25st1D-iIkEkWoqk");
+  background-position: center;
+  background-size: cover;
+  position: relative;  
+}
