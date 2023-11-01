@@ -5,9 +5,12 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("https://drive.google.com/uc?export=view&id=1_SA_mVAwkC2tlX9J25st1D-iIkEkWoqk");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     position: relative;  
   }
+
 
 
 h1 {
@@ -42,6 +45,7 @@ nav img{
 }
 .nav_links ul li a{
   color: white;
+  font-size: 20 px;
   text-decoration: none ;
 }
 .nav_links ul li::after{
@@ -58,9 +62,12 @@ nav img{
   width: 100%;
 }
 .text_box{
-  position: absolute;
+  width: 90%;
   color: #ffffff;
-  transform: translate(40%, 100%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 100%);
   text-align: center;
 }
 .button1{
@@ -73,18 +80,14 @@ nav img{
   font-size: 20px;
   cursor: pointer;
 }
-@keyframes glow {
-  0% {
-      box-shadow: 0 0 5px rgba(189, 189, 189, 0.7); /* Initial glow effect */
-  }
-  50% {
-      box-shadow: 0 0 20px rgb(255, 255, 255); /* Maximum glow effect */
-  }
-  100% {
-      box-shadow: 0 0 5px rgba(189, 189, 189, 0.7); /* Returning to initial glow */
-  }
+.button1:hover{
+  background-color: #f44336;
+  box-shadow: 0 0 10px #f44336, 0 0 20px #f44336, 0 0 30px #f44336;
+  transition: 1s;
 }
-.button1:hover {
-  animation: glow 1s infinite;
+.button1:active{
+  background-color: #f4436f;
+  box-shadow: 0 0 5px #f4436f, 0 0 10px #f4436f, 0 0 15px #f4436f;
+  transition: 1s;
 }
 
